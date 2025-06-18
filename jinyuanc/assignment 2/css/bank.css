@@ -1,0 +1,401 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../pic/backgroundPic.jpg);
+    background-size: 120%;
+    background-position: bottom;
+
+}
+
+li a:hover {
+    color: dimgray;
+}
+
+#nav {
+    margin: 10px;
+    width: 95%;
+    height: 80px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    margin-left: 2.5%;
+}
+
+#nav li {
+    list-style-type: none;
+}
+
+#nav li a {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding-left: 6%;
+    margin-top: 2%;
+    font-size: 15px;
+    color: black;
+}
+
+a:hover {
+    color: dimgray;
+}
+
+#nav li a:hover {
+    color: dimgray;
+}
+
+#left1,
+#left2,
+#left3 {
+    width: 100%;
+    background-color: white;
+    height: 180px;
+    float: right;
+    margin-bottom: 10%;
+}
+
+#left1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+div #left1top {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid lightgray;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#left1text {
+    color: orange;
+    margin-left: 3%;
+}
+
+.left1pic {
+    width: 20%;
+    height: 63px;
+    float: left;
+    margin: 2.5%;
+}
+
+.left1text {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 10px;
+    color: dimgray;
+}
+
+.left1pic1 {
+    width: 100%;
+}
+
+#left2top a {
+    text-decoration: none;
+    color: dimgrey;
+    border: 1px solid lightgray;
+    padding: 1%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#news {
+    margin-left: 6%;
+}
+
+#left2bottom li {
+    color: dimgrey;
+}
+
+.date {
+    color: orange;
+}
+
+#left2top {
+    border-bottom: 2px solid lightgrey;
+    height: 40px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#left2 {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#sbank {
+    margin-top: 6%;
+    float: right;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+#array {
+    margin-top: -3%;
+    margin-left: 4%;
+    width: 0%;
+    border-width: 10px;
+    ;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+#left3middle {
+    margin-top: 14%;
+    padding-left: 20%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    height: 80px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+#stock {
+    font-size: 30px;
+    color: red;
+    margin-left: 10%;
+}
+
+#left3bottom {
+    float: right;
+    margin-right: 22%;
+    margin-top: 6%;
+    color: red;
+}
+
+#left3 {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+#right1,
+#right2,
+#right3 {
+    width: 100%;
+    background-color: dimgrey;
+    ;
+    height: 180px;
+    float: right;
+    margin-bottom: 10%;
+}
+
+#middle {
+    width: 100%;
+    background-color: dimgrey;
+    height: 100%;
+    float: left;
+    margin: 2%;
+}
+
+.left1content {
+    color: black;
+    text-align: center;
+}
+
+.content {
+    width: 20%;
+    height: 600px;
+    float: left;
+    margin: 2%;
+}
+
+#class2 {
+    width: 48%;
+}
+
+#right1 {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#right1top {
+    padding: 3% 0 0 4%;
+}
+
+.right1left {
+    text-decoration: none;
+    float: left;
+    width: 40%;
+    margin-top: -3%;
+    margin-left: 5%;
+}
+
+.right1left a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+#right1top a {
+    color: deepskyblue;
+}
+
+.right2top {
+    margin-left: 10%;
+    width: 40%;
+    float: left;
+}
+
+#right2ana {
+    background-color: darkorange;
+    width: 120%;
+    padding: 1%;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#right2more {
+    margin-top: -10%;
+    color: darkorange;
+}
+
+#right2more a {
+    color: darkorange;
+}
+
+.right2top a {
+    text-decoration: none;
+}
+
+#right2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.2);
+}
+
+#right2top {
+    border-bottom: 5px solid darkgray;
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.2);
+    height: 50%;
+}
+
+#right2toppic {
+    width: 60%;
+    height: auto;
+    margin-left: 15%;
+}
+
+#saving {
+    color: mediumpurple;
+    font-size: 30px;
+}
+
+#good {
+    text-align: center;
+    background-color: mediumpurple;
+    border-radius: 10px;
+    width: 48%;
+    padding: 0.5%;
+}
+
+#higher {
+    margin-top: -7%;
+}
+
+#right2bottompic {
+    width: 30%;
+    height: auto;
+    visibility: hidden;
+}
+
+.right2bottom {
+    float: left;
+    width: 100%;
+    margin-left: 10%;
+}
+
+#right2bottomtext {
+    margin-top: -3%;
+}
+
+#right3 {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#right3top {
+    text-align: center;
+    margin-top: -1%;
+}
+
+#line {
+    color: red;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+#right3pic {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.right3bottom {
+    float: left;
+    width: 50%;
+    margin-top: -5%;
+}
+
+#right3right {
+    text-align: center;
+    margin-left: -10%;
+}
+
+#right3right1 {
+    padding: 3%;
+    border-bottom: 2px solid grey;
+}
+
+#right3low {
+    padding-left: 12%;
+    margin-top: -2%;
+    float: left;
+    border-top: 3px solid grey;
+}
+
+#right3lowpic {
+    width: 8%;
+}
+
+#email {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+#nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#all:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#middle {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#footer {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 140px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+}
+
+.footertext {
+    float: left;
+    margin-left: 2%;
+    font-size: 18px;
+    color: dimgrey;
+    width: 18%;
+}
+
+#footerimg {
+    width: 5%;
+    background-color: dimgrey;
+}

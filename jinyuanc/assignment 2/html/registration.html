@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jquery.validate.js"></script>
+<script>
+    function validate() {
+        if ($("#name").val() == "") {
+            document.getElementById("demo1").innerHTML = "* Please enter your account";
+            return false;
+        } else if ($("#password").val() != $("#confirm").val()) {
+            document.getElementById("demo3").innerHTML = "* Password does not match";
+            return false;
+        } else if ($("#email").val() == "") {
+            document.getElementById("demo4").innerHTML = "* Please enter your E-mail";
+            return false;
+        }
+        /*else if (!$("#agree").is("checked")) {
+                   alert("You must agree to the terms and conditions");
+                   return false;
+               }*/
+        var x = document.getElementById("password").value;
+        var sln = x.length;
+
+        if (sln < 8 || sln > 12) {
+            alert("Your password need to be 8-12 character");
+            return false;
+        }
+
+        match = /[A-Z]/g;
+        var pos = x.search(match);
+
+        if (pos == -1) {
+            alert("Your password need to include one uppercase letter");
+            return false;
+        }
+
+        match = /[a-z]/g;
+        var pos = x.search(match);
+
+        if (pos == -1) {
+            alert("Your password need to include one lowercase letter");
+            return false;
+        }
+        
+        match = /[~!#$]/g;
+        
+        var pos = x.search(match);        
+        if (pos == -1) {
+            alert ("Your password must include one of special characters:\~!#$") ;
+            return false;
+        }
+    }
+
+</script>
+
+<head>
+    <title>NetBank - Registration</title>
+    <style>
+        .error {
+            color: #FF0000
+        }
+
+    </style>
+    <link href="../css/registration.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <form id="signup" method="post" action="regconfirm.php" onsubmit="return validate();">
+        <div style="margin-left:30%;">
+            <p>Welcome to Secure Bank Pty. Ltd</p>
+            <P style="margin-left: 8px;">
+                Account : <input type="text" id="name" name="account" placeholder="Please enter your member name" required;><br>
+                <span id="demo1" class="error"></span>
+            </P>
+            <p>Password :
+                <input type="text" id="password" name="password"><br>
+                <span id="demo2" class="error"></span>
+            </p>
+            <p style="margin-left: -60px;">
+                Confirm Password: <input type="text" id="confirm" name="confirm" style="text-align:certer;"><br>
+                <span id="demo3" class="error"></span>
+            </p>
+            <p style="margin-left: 30px">
+                E-mail: <input type="email" id="email" name="email" style="text-align:certer;"><br>
+                <span id="demo4" class="error"></span>
+            </p>
+            <p style="margin-left: -40px">
+                Phone Number: <input type="phone" id="phone" name="phone" style="text-align:certer;" required><br><br>
+            </p>
+             
+                Account Type:
+                <form>
+                <select name="type" id="type">
+                    <option value="business" name="business">Business</option>
+                    <option value="saving" name="saving">Saving</option>
+                </select>
+                </form>
+            <p>
+                <label for="agree">Agree the terms and conditions</label>
+                <input type="checkbox" class="checkbox" id="agree" name="agree" required />
+            </p>
+            <p>Do your have a account? <a href="Login.html">Log in</a> here</p>
+            <p><input type="submit" type="submit" value="Submit" name="submit">
+            </p>
+        </div>
+    </form>
+
+</body>
+
+</html>

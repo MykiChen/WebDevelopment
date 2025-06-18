@@ -1,0 +1,19 @@
+body {
+    background-image: url('../pictures/IMG_2093.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% Auto;
+}
+
+form {
+    margin-left: 10%;
+    padding-top: 180px;
+}
+
+div {
+    text-align: center;
+    border: 1px solid white;
+    width: 600px;
+    margin-left: 30%;
+    padding-top: 20px;
+    background-color: rgba(51, 102, 205, 0.2);
+}

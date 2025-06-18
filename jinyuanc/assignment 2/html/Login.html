@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.validate.js"></script>
+    <title>NetBank - Registration</title>
+    <style>
+        .error {
+            color: #FF0000
+        }
+
+    </style>
+    <link href="../css/registration.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <form id="signin" method="post" action="Loginconfirm.php" onsubmit="return userValidate();">
+        <div style="width:400px;">
+            <h2>Welcome to Secure Bank Pty. Ltd</h2>
+            <p>Are you a new member?
+                <a href="registration.html">Register now</a></p>
+            <P style="margin-left: 8px;">
+                Account : <input type="text" id="account" name="account" placeholder="Please enter your member name" required;><br>
+                <span id="demo1" class="error"></span>
+            </P>
+            <p>Password :
+                <input type="password" id="password" name="password"><br>
+                <span id="demo2" class="error"></span>
+            </p>
+            <p><input type="checkbox" name="check">Remeber your account</p>
+            <p><input type="submit" value="login" name="login">
+            </p>
+            <p><a href="">Forgot your password?</a></p>
+        </div>
+    </form>
+</body>
+
+</html>
