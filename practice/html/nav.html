@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<head>
+    <link href="../css/nav.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="whole1" class="whole">
+        <div id="surface">
+            <div id="content">
+                <div id="up1"></div>
+                <div id="up2"></div>
+            </div>
+        </div>
+        <div id="surface1"></div>
+        <div id="surface2"></div>
+    </div>
+
+    <div id="whole2" class="whole">
+        <div id="surface3">
+            <div id="content1">
+                <div id="up5"></div>
+                <div id="up6"></div>
+            </div>
+        </div>
+        <div id="surface4"></div>
+        <div id="surface5"></div>
+    </div>
+
+    <div id="whole3" class="whole">
+        <div id="surface6">
+            <div id="content2">
+                <div id="up3"></div>
+                <div id="up4"></div>
+            </div>
+        </div>
+        <div id="surface7"></div>
+        <div id="surface8"></div>
+    </div>
+    
+    <div id="whole4" class="whole">
+        <div id="surface9">
+            <div id="content3">
+                <div id="up7"></div>
+                <div id="up8"></div>
+            </div>
+        </div>
+        <div id="surface10"></div>
+        <div id="surface11"></div>
+    </div>
+<script>
+    $(document).ready(function() {
+        $("#whole1").click(function() {
+            $("#whole2").toggle();
+        });
+        
+        $("#whole2").click(function() {
+            $("#whole3").slideToggle();
+        });
+        $("#whole3").click(function() {
+            $("#whole4").css("margin-top", "10%");
+        });
+    });
+    
+</script>
+    
+</body>
+
+</html>

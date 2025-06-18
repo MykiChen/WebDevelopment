@@ -1,0 +1,1251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(black, rgba(0,0,0,0.9), darkslateblue);
+    height: 1300px;
+    width: 118%;
+}
+
+.star {
+    position: absolute;
+    background-color: rgba(255,255,255,0.7);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px rgba(255,255,255,1); 
+}
+
+#star1 {
+    margin-left: 10%;
+    margin-top: 39%;
+    width: 7px;
+    height: 7px;
+}
+
+#star2 {
+    margin-left: 22%;
+    margin-top: 33%;
+    width: 6px;
+    height: 6px;
+}
+
+#star3 {
+    margin-left: 14%;
+    margin-top: 43%;
+}
+
+#star4 {
+    margin-left: 22%;
+    margin-top: 40%;
+    width: 8px;
+    height: 8px;
+}
+
+#star5 {
+    margin-left: 29%;
+    margin-top: 26%;
+    width: 8px;
+    height: 8px;
+}
+
+#star6 {
+    margin-left: 38%;
+    margin-top: 23%;
+}
+
+#star7 {
+    margin-left: 49%;
+    margin-top: 23%;
+    width: 7px;
+    height: 7px;
+}
+
+#star8 {
+    margin-left: 5%;
+    margin-top: -13%;
+    background-color: darksalmon;
+    width: 9px;
+    height: 9px;
+}
+
+#star9 {
+    margin-left: 18%;
+    margin-top: -11%;
+    background-color: deepskyblue;
+}
+
+#star10 {
+    margin-left: 15%;
+    margin-top: 0%;
+    background-color: deepskyblue;
+}
+
+#star11 {
+    margin-left: 12%;
+    margin-top: 1%;
+    background-color: deepskyblue;
+    width: 8px;
+    height: 8px;
+}
+
+#star12 {
+    margin-left: 9%;
+    margin-top: 2%;
+    background-color: deepskyblue;
+}
+
+#star13 {
+    margin-left: 4%;
+    margin-top: 14%;
+    background-color: deepskyblue;
+}
+
+#star14 {
+    margin-left: 20%;
+    margin-top: 14%;
+    background-color: deepskyblue;
+    width: 8px;
+    height: 8px;
+}
+
+#star15 {
+    margin-left: 89%;
+    margin-top: 24%;
+    background-color: white;
+    width: 8px;
+    height: 8px;
+}
+
+#star16 {
+    margin-left: 60%;
+    margin-top: 10%;
+    background-color: darkturquoise;
+}
+
+#star17 {
+    margin-left: 73%;
+    margin-top: 7%;
+    background-color: darkturquoise;
+}
+
+#star18 {
+    margin-left: 75%;
+    margin-top: 6%;
+    background-color: darkturquoise;
+    height: 7px;
+    width: 7px;
+}
+
+#star19 {
+    margin-left: 83%;
+    margin-top: 0%;
+    background-color: darkturquoise;
+    width: 9px;
+    height: 9px;
+}
+
+#star20 {
+    margin-left: 92%;
+    margin-top: 10%;
+    background-color: darkturquoise;
+}
+
+#star21 {
+    margin-left: 92%;
+    margin-top: 30%;
+    background-color: antiquewhite;
+}
+
+#star22 {
+    margin-left: 93%;
+    margin-top: 33%;
+    background-color: antiquewhite;
+}
+
+#star22 {
+    margin-left: 93%;
+    margin-top: 36%;
+    background-color: antiquewhite;
+}
+
+#star23 {
+    margin-left: 93%;
+    margin-top: 40%;
+    background-color: antiquewhite;
+    width: 4px;
+    height: 4px;
+}
+
+#star24 {
+    margin-left: 84%;
+    margin-top: 33%;
+    background-color: antiquewhite;
+}
+
+#star25 {
+    margin-left: 80%;
+    margin-top: 36%;
+    background-color: antiquewhite;
+    width: 8px;
+    height: 8px;
+}
+
+#star26 {
+    margin-left: 75%;
+    margin-top: 44%;
+    background-color: antiquewhite;
+}
+
+#star27 {
+    margin-left: 73%;
+    margin-top: 51%;
+    background-color: antiquewhite;
+}
+
+#star28 {
+    margin-left: 71%;
+    margin-top: 58%;
+    background-color: antiquewhite;
+    width: 8px;
+    height: 8px;
+}
+
+#star29 {
+    margin-left: 63%;
+    margin-top: 60%;
+    background-color: antiquewhite;
+}
+
+#star30 {
+    margin-left: 55%;
+    margin-top: 59%;
+    background-color: antiquewhite;
+    width: 7px;
+    height: 7px;
+}
+
+#star31 {
+    margin-left: 50%;
+    margin-top: 55%;
+    background-color: antiquewhite;
+}
+
+#star32 {
+    margin-left: 53%;
+    margin-top: 51%;
+    background-color: antiquewhite;
+    width: 7px;
+    height: 7px;
+}
+
+#star33 {
+    margin-left: 57%;
+    margin-top: 48%;
+    background-color: antiquewhite;
+}
+
+#star34 {
+    margin-left: 25%;
+    margin-top: -6%;
+    background-color: darksalmon;
+}
+
+#star35 {
+    margin-left: 35%;
+    margin-top: -2%;
+    background-color: darksalmon;
+}
+
+#star36 {
+    margin-left: 35%;
+    margin-top: -2%;
+    background-color: darksalmon;
+    width: 7px;
+    height: 7px;
+}
+
+#star37 {
+    margin-left: 38%;
+    margin-top: 0%;
+    background-color: darksalmon;
+}
+
+#star38 {
+    margin-left: 39%;
+    margin-top: 2%;
+    background-color: darksalmon;
+    width: 10px;
+    height: 10px;
+}
+
+#star39 {
+    margin-left: 39%;
+    margin-top: 36%;
+    background-color: lightgreen;
+    width: 4px;
+    height: 4px;
+}
+
+#star41 {
+    margin-left: 43%;
+    margin-top: 34%;
+    background-color: lightgreen;
+    width: 6px;
+    height: 6px;
+}
+
+#star42 {
+    margin-left: 47%;
+    margin-top: 28%;
+    background-color: lightgreen;
+    width: 5px;
+    height: 5px;
+}
+
+#star43 {
+    margin-left: 58%;
+    margin-top: 34%;
+    background-color: lightgreen;
+    width: 7px;
+    height: 7px;
+}
+
+#star44 {
+    margin-left: 56%;
+    margin-top: 45%;
+    background-color: lightgreen;
+    width: 6px;
+    height: 6px;
+}
+
+#star45 {
+    margin-left: 47%;
+    margin-top: 49%;
+    background-color: lightgreen;
+    width: 4px;
+    height: 4px;
+}
+
+#star46 {
+    margin-left: 42%;
+    margin-top: 35%;
+    background-color: lightgreen;
+    width: 5px;
+    height: 5px;
+}
+
+#star47 {
+    margin-left: 87%;
+    margin-top: -15%;
+    background-color: burlywood;
+    width: 8px;
+    height: 8px;
+}
+
+#star48 {
+    margin-left: 75%;
+    margin-top: -11%;
+    background-color: burlywood;
+    width: 7px;
+    height: 7px;
+}
+
+#star49 {
+    margin-left: 95%;
+    margin-top: -5%;
+    background-color: burlywood;
+    width: 7px;
+    height: 7px;
+}
+
+#star50 {
+    margin-left: 80%;
+    margin-top: 6%;
+    background-color: burlywood;
+    width: 10px;
+    height: 10px;
+}
+
+#star51 {
+    margin-left: 53%;
+    margin-top: -17%;
+    background-color: floralwhite;
+    width: 7px;
+    height: 7px;
+}
+
+#star52 {
+    margin-left: 56%;
+    margin-top: -4%;
+    background-color: floralwhite;
+    width: 6px;
+    height: 8px;
+}
+
+#star53 {
+    margin-left: 56.5%;
+    margin-top: -2%;
+    background-color: floralwhite;
+    width: 7px;
+    height: 7px;
+}
+
+#star54 {
+    margin-left: 53%;
+    margin-top:0%;
+    background-color: floralwhite;
+    width: 6px;
+    height: 6px;
+}
+
+#star55 {
+    margin-left: 48%;
+    margin-top: 4%;
+    background-color: floralwhite;
+    width: 5px;
+    height: 5px;
+}
+
+#star56 {
+    margin-left: 42%;
+    margin-top: 5%;
+    background-color: floralwhite;
+    width: 8px;
+    height: 8px;
+}
+
+#star57 {
+    margin-left: 38%;
+    margin-top: 8%;
+    background-color: floralwhite;
+    width: 7px;
+    height: 7px;
+}
+
+#star58 {
+    margin-left: 42%;
+    margin-top: -2%;
+    background-color: floralwhite;
+    width: 9px;
+    height: 9px;
+}
+
+#star59 {
+    margin-left: 46%;
+    margin-top: -6%;
+    background-color: floralwhite;
+    width: 6px;
+    height: 6px;
+}
+
+#star60 {
+    margin-left: 66%;
+    margin-top: 15%;
+    background-color: darksalmon;
+    width: 6px;
+    height: 6px;
+}
+
+#star61 {
+    margin-left: 66%;
+    margin-top: 15%;
+    background-color: darksalmon;
+    width: 6px;
+    height: 6px;
+}
+
+#star62 {
+    margin-left: 67%;
+    margin-top: 15.5%;
+    background-color: darksalmon;
+    width: 5px;
+    height: 4px;
+}
+
+#star63 {
+    margin-left: 70%;
+    margin-top: 16%;
+    background-color: darksalmon;
+    width: 6px;
+    height: 6px;
+}
+
+#star64 {
+    margin-left: 79%;
+    margin-top: 21%;
+    background-color: darksalmon;
+    width: 6px;
+    height: 6px;
+}
+
+#star65 {
+    margin-left: 83%;
+    margin-top: 22%;
+    background-color: darksalmon;
+    width: 5px;
+    height: 5px;
+}
+
+#star66 {
+    margin-left: 86%;
+    margin-top: 21%;
+    background-color: darksalmon;
+    width: 5px;
+    height: 5px;
+}
+
+#star67 {
+    margin-left: 80%;
+    margin-top: 30%;
+    background-color: darksalmon;
+    width: 7px;
+    height: 8px;
+}
+
+#star68 {
+    margin-left: 79%;
+    margin-top: 33%;
+    background-color: darksalmon;
+    width: 6px;
+    height: 6px;
+}
+
+#star69 {
+    margin-left: 66%;
+    margin-top: 26%;
+    background-color: darksalmon;
+    width: 7px;
+    height: 7px;
+}
+
+#star70 {
+    margin-left: 64%;
+    margin-top: 25%;
+    background-color: darksalmon;
+    width: 5px;
+    height: 5px;
+}
+
+#star71 {
+    margin-left: 63%;
+    margin-top: 23%;
+    background-color: darksalmon;
+    width: 6px;
+    height: 6px;
+}
+
+#star72 {
+    margin-left: 95%;
+    margin-top: 23%;
+    background-color: aliceblue;
+    width: 5px;
+    height: 5px;
+}
+
+#star73 {
+    margin-left: 98%;
+    margin-top: 20%;
+    background-color: aliceblue;
+    width: 6px;
+    height: 6px;
+}
+
+#star74 {
+    margin-left: 108%;
+    margin-top: 13%;
+    background-color: aliceblue;
+    width: 6px;
+    height: 6px;
+}
+
+#star75 {
+    margin-left: 105%;
+    margin-top: 10.8%;
+    background-color: aliceblue;
+    width: 7px;
+    height: 7px;
+}
+
+#star76 {
+    margin-left: 102%;
+    margin-top: 10.8%;
+    background-color: aliceblue;
+    width: 5px;
+    height: 5px;
+}
+
+#star77 {
+    margin-left: 95%;
+    margin-top: 16%;
+    background-color: aliceblue;
+    width: 6px;
+    height: 6px;
+}
+
+#star78 {
+    margin-left: 100%;
+    margin-top: 9%;
+    background-color: aliceblue;
+    width: 7px;
+    height: 7px;
+}
+
+#star79 {
+    margin-left: 100%;
+    margin-top: 4%;
+    background-color: aliceblue;
+    width: 5px;
+    height: 5px;
+}
+
+#star80 {
+    margin-left: 102%;
+    margin-top: 4%;
+    background-color: aliceblue;
+    width: 7px;
+    height: 7px;
+}
+
+#star81 {
+    margin-left: 10%;
+    margin-top: 6%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star82 {
+    margin-left: 15%;
+    margin-top: 8%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star83 {
+    margin-left: 25%;
+    margin-top: 4%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star84 {
+    margin-left: 22%;
+    margin-top: %;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star85 {
+    margin-left: 18%;
+    margin-top: 2%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star86 {
+    margin-left:20%;
+    margin-top: 4%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star87 {
+    margin-left:23%;
+    margin-top: 8%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star88 {
+    margin-left: 17%;
+    margin-top: 16%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star88 {
+    margin-left: 8%;
+    margin-top: 16%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star89 {
+    margin-left: 10%;
+    margin-top: -5%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star90 {
+    margin-left: 10%;
+    margin-top: -5%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star91 {
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star92 {
+    margin-left: 15%;
+    margin-top: -7%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star93 {
+    margin-left: 6%;
+    margin-top: -7%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star94 {
+    margin-left: 30%;
+    margin-top: -10%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star95 {
+    margin-left: 30%;
+    margin-top: -4%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star96 {
+    margin-left: 30%;
+    margin-top: -4%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star97 {
+    margin-left: 33%;
+    margin-top: 6%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star98 {
+    margin-left: 35%;
+    margin-top: 14%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star99 {
+    margin-left: 28%;
+    margin-top: 20%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star100 {
+    margin-left: 38%;
+    margin-top: -12%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star102 {
+    margin-left: 42%;
+    margin-top: -7%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star103 {
+    margin-left: 47%;
+    margin-top: -12%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star103 {
+    margin-left: 52%;
+    margin-top: 8%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star104 {
+    margin-left: 42%;
+    margin-top: 18%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star105 {
+    margin-left: 57%;
+    margin-top: 18%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star106 {
+    margin-left: 58%;
+    margin-top: 24%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star107 {
+    margin-left: 45%;
+    margin-top: 12%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star108 {
+    margin-left: 53%;
+    margin-top: 18%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star109 {
+    margin-left: 8%;
+    margin-top: 25%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star110 {
+    margin-left: 16%;
+    margin-top: 30%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star111 {
+    margin-left: 18%;
+    margin-top: 20%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star112 {
+    margin-left: 22%;
+    margin-top: 18%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star113 {
+    margin-left: 66%;
+    margin-top: 18%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star114 {
+    margin-left: 78%;
+    margin-top: 0%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star115 {
+    margin-left: 84%;
+    margin-top: -8%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star115 {
+    margin-left: 84%;
+    margin-top: -8%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star116 {
+    margin-left: 90%;
+    margin-top: 2%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star117 {
+    margin-left: 85%;
+    margin-top: 14%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star118 {
+    margin-left: 70%;
+    margin-top: 34%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star119 {
+    margin-left: 74%;
+    margin-top: 26%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star120 {
+    margin-left: 60%;
+    margin-top: 30%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star120 {
+    margin-left: 60%;
+    margin-top: 30%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star121 {
+    margin-left: 58%;
+    margin-top: 31%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star122 {
+    margin-left: 68%;
+    margin-top: 33%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star123 {
+    margin-left: 72%;
+    margin-top: 33%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star124 {
+    margin-left: 76%;
+    margin-top: 13%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star125 {
+    margin-left: 48%;
+    margin-top: 13%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star126 {
+    margin-left: 78%;
+    margin-top: 14%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star127 {
+    margin-left: 108%;
+    margin-top: 14%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star128 {
+    margin-left: 106%;
+    margin-top: 34%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star129 {
+    margin-left: 102%;
+    margin-top: 30%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star130 {
+    margin-left: 30%;
+    margin-top: 19%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star131 {
+    margin-left: 105%;
+    margin-top: -15%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star132 {
+    margin-left: 100%;
+    margin-top: -12%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star133 {
+    margin-left: 101%;
+    margin-top: -9%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star134 {
+    margin-left: 104%;
+    margin-top: -3%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star135 {
+    margin-left: 104%;
+    margin-top: 4%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star136 {
+    margin-left: 106%;
+    margin-top: 12%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star137 {
+    margin-left: 104%;
+    margin-top: 20%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star138 {
+    margin-left: 107%;
+    margin-top: 22%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star139 {
+    margin-left: 79%;
+    margin-top: -12%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star140 {
+    margin-left: 78%;
+    margin-top: -10%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star141 {
+    margin-left: 71%;
+    margin-top: -5%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star142 {
+    margin-left: 65%;
+    margin-top: 14%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star143 {
+    margin-left: 68%;
+    margin-top: 10%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star144 {
+    margin-left: 70%;
+    margin-top: 3%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star145 {
+    margin-left: 68%;
+    margin-top: 4%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star145 {
+    margin-left: 61%;
+    margin-top: 8%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star146 {
+    margin-left: 54%;
+    margin-top: 11%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star147 {
+    margin-left: 21%;
+    margin-top: 1%;
+    background-color: aliceblue;
+    width: 3px;
+    height: 3px;
+}
+
+#star148 {
+    margin-left: 86%;
+    margin-top: 11%;
+    background-color: aquamarine;
+    width: 9px;
+    height: 9px;
+}
+
+#star149 {
+    margin-left: 36%;
+    margin-top: 15%;
+    background-color: aquamarine;
+    width: 3px;
+    height: 3px;
+}
+
+#star150 {
+    margin-left: 41%;
+    margin-top: 19%;
+    background-color: aquamarine;
+    width: 3px;
+    height: 3px;
+}
+
+#star151 {
+    margin-left: 35%;
+    margin-top: 0%;
+    background-color: aquamarine;
+    width: 3px;
+    height: 3px;
+}
+
+#star152 {
+    margin-left: 30%;
+    margin-top: 16%;
+    background-color: aquamarine;
+    width: 3px;
+    height: 3px;
+}
+
+#star153 {
+    margin-left: 50%;
+    margin-top: 48%;
+    background-color: aquamarine;
+    width: 3px;
+    height: 3px;
+}
+
+#star154 {
+    margin-left: 50%;
+    margin-top: 40%;
+    background-color: white;
+    width: 3px;
+    height: 3px;
+}
+
+#out {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 89px rgba(255,255,255,1);
+    margin-left: 50%;
+    margin-top: 10%
+}
+
+#in {
+    background-color: rgba(0,0,0,0.9);
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px rgba(0,69,107,1);   
+}

@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.bubble {
+    position: absolute;
+    background-color: rgba(135,206,235,0.3);
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 49px rgba(135,206,235,0.7);
+    margin-left: 50%;
+    bottom: 1;
+}
+
+#content1 {
+    position: absolute;
+    bottom: 0;
+    animation: up1 5s infinite linear 1s;
+    
+}
+
+@keyframes up1 {
+    0% {margin-left: 40%; margin-bottom: -10%}
+    35% {margin-left: 70%; margin-bottom: 30%;     box-shadow: 0px 0px 59px rgba(23,255,255,1);}
+    100% {margin-left: 50%; margin-bottom: 100%;}
+}
+
+#content2 {
+    position: absolute;
+    bottom: 0;
+    animation: up2 5s infinite linear 2s;
+}
+
+@keyframes up2 {
+    0% {margin-left: 10%;}
+    40% {margin-left: 20%; margin-bottom: 40%; background-color: lightskyblue;}
+    100% {margin-left: 10%; margin-bottom: 100%;}
+}
+
+#content3 {
+    position: absolute;
+    bottom: 0;
+    animation: up3 5s infinite linear;
+}
+
+@keyframes up3 {
+    0% {margin-left: 60%;}
+    20% {margin-left: 50%; margin-bottom: 20%; background-color: lightskyblue;}
+    100% {margin-left: 60%; margin-bottom: 100%;}
+}
+
+#content4 {
+    position: absolute;
+    bottom: 0;
+    animation: up3 5s infinite linear 3s;
+}
+
+@keyframes up4 {
+    0% {margin-left: 50%;}
+    30% {margin-left: 70%; margin-bottom: 30%;}
+    100% {margin-left: 90%; margin-bottom: 100%;}
+}
+
+#content5 {
+    position: absolute;
+    bottom: 0;
+    animation: up5 5s infinite linear 1s;
+}
+
+@keyframes up5 {
+    0% {margin-left: 20%;}
+    20% {margin-left: 10%; margin-bottom: 20%;}
+    100% {margin-left: 30%; margin-bottom: 100%;}
+}
+
+#content6 {
+    position: absolute;
+    bottom: 0;
+    animation: up6 5s infinite linear 4s;
+}
+
+@keyframes up6 {
+    0% {margin-left: 30%;}
+    30% {margin-left: 50%; margin-bottom: 30%;}
+    100% {margin-left: 20%; margin-bottom: 100%;}
+}
+
+
+

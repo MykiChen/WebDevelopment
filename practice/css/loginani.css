@@ -1,0 +1,99 @@
+.bar {
+    margin-left: 50%;
+    margin-top: 20%;
+    position: absolute;
+    width: 20px;
+    height: 120px;
+    background-color: white;
+    border-radius: 15px;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+    0% {opacity: 0%; background-color: firebrick;}
+    20% {opacity: 0%; background-color: bisque;}
+    100% {opacity: 100%; background-color: deepskyblue;}
+}
+
+body {
+    background-color: black;
+}
+
+#bar2 {
+    margin-left: 55%;
+    margin-top: 21.5%; 
+    transform: rotate(30deg);
+    animation-delay: 0.33s;
+}
+
+#bar3 {
+    margin-left: 58%;
+    margin-top: 25%; 
+    transform: rotate(60deg);
+    animation-delay: 0.66s;
+}
+
+#bar4 {
+    margin-left: 60%;
+    margin-top: 30%; 
+    transform: rotate(90deg);
+    animation-delay: 0.99s;
+}
+
+#bar5 {
+    margin-left: 58%;
+    margin-top: 35%; 
+    transform: rotate(120deg);
+    animation-delay: 1.33s;
+}
+
+#bar6 {
+    margin-left: 55%;
+    margin-top: 38.5%; 
+    transform: rotate(150deg);
+    animation-delay: 1.66s;
+}
+
+#bar7 {
+    margin-left: 50%;
+    margin-top: 40%; 
+    transform: rotate(180deg);
+    animation-delay: 1.99s;
+}
+
+#bar8 {
+    margin-left: 45%;
+    margin-top: 38.5%; 
+    transform: rotate(210deg);
+    animation-delay: 2.33s;
+}
+
+#bar9 {
+    margin-left: 41.5%;
+    margin-top: 35%; 
+    transform: rotate(240deg);
+    animation-delay: 2.66s;
+}
+
+#bar10 {
+    margin-left: 40%;
+    margin-top: 30%; 
+    transform: rotate(270deg);
+    animation-delay: 2.99s;
+}
+
+#bar11 {
+    margin-left: 41.5%;
+    margin-top: 25%; 
+    transform: rotate(300deg);
+    animation-delay: 3.33s;
+}
+
+#bar12 {
+    margin-left: 45%;
+    margin-top: 21.5%; 
+    transform: rotate(330deg);
+    animation-delay: 3.66s;
+}
